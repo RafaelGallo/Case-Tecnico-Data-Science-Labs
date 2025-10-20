@@ -215,10 +215,6 @@ Nesse gráfico série temporal mostra a variação do preço médio de venda de 
 
 <img src="https://github.com/RafaelGallo/Case-Tecnico-Data-Science-Labs/blob/main/img/15.png" width="700"/>
 
-**Análise**
-
-**Objetivo**
-
 Avaliar como o volume de transações imobiliárias em Tóquio evoluiu entre 2005 e 2019, considerando o tipo de zoneamento urbano (*City Planning*). O objetivo é identificar quais áreas apresentam maior dinâmica de mercado e se há padrões temporais relevantes.
 
 **Principais Observações**
@@ -275,15 +271,14 @@ No caso da variável Area, a maior parte das propriedades se concentra entre apr
 
 ## **Feature Engineering**
 
-Aplicação de técnicas de transformação e codificação de variáveis categóricas (`LabelEncoder`, `astype`, `merge`) e normalização de atributos contínuos.
+<img src="https://github.com/RafaelGallo/Case-Tecnico-Data-Science-Labs/blob/main/img/featue.png?raw=true" width="700"/>
 
-<img src="https://github.com/RafaelGallo/Case-Tecnico-Data-Science-Labs/blob/main/img/25.png" width="700"/>
+Nesta etapa foi realizada a transformação de variáveis categóricas em valores numéricos utilizando LabelEncoder, garantindo compatibilidade com os modelos de Machine Learning.
+Cada coluna categórica foi convertida para string, codificada e armazenada em um dicionário (label_encoders) para uso posterior no conjunto de teste, prevenindo inconsistências e vazamento de dados.
 
 ### Importância das Features (GradientBoosting)
 
 <img src="https://github.com/RafaelGallo/Case-Tecnico-Data-Science-Labs/blob/main/img/18.png" width="700"/>
-
-**Análise**
 
 Nesse gráfico mostra plot importancia features mostram a influência de cada variável independente (feature) sobre o valor previsto dos imóveis, comparando diferentes algoritmos de regressão linear e baseada em árvores. Essa análise é essencial para entender quais fatores mais impactam o preço e como cada modelo os interpreta.
 
