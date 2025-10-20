@@ -1,0 +1,12 @@
+pandas
+numpy
+sqlalchemy
+sqlite3-binary; sys_platform == "win32"
+catboost
+lightgbm
+scikit-learn
+category-encoders
+matplotlib
+plotly
+seaborn
+tqdm
